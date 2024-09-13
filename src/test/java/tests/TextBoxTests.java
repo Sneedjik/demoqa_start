@@ -20,7 +20,7 @@ public class TextBoxTests {
 
     @Test
     void fillFormTest() {
-        open("/text-box");
+        open("automation-practice-form");
         $("#userName").setValue("Bony");
         $("#userEmail").setValue("Bony@man.com");
         $("#currentAddress").setValue("Some place 1");
